@@ -3,9 +3,10 @@
 ### JavaScript 2023 lessons and homeworks start
 
 JavaScript dasturidan bilishingiz kerak bo'lgan barcha mavzular no'ldan boshlab tushuntirilgan. Darslik uch qisimga bo'lingan: beginner, advanced va expert darajasida. WebBrain Academy
+<hr>
 <img src="./Webbrain.gif" alt="JavaScript">
 <hr>
-1-dars | JSga Kirish | Variables | Data Types
+## 1-dars | JSga Kirish | Variables | Data Types
 
 —  JS nima? <br>
 —  JS qanday ishlaydi <br>
