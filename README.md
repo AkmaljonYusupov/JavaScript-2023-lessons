@@ -7,13 +7,13 @@ JavaScript dasturidan bilishingiz kerak bo'lgan barcha mavzular no'ldan boshlab 
 <hr>
 1-dars | JSga Kirish | Variables | Data Types
 
-—  JS nima?
-—  JS qanday ishlaydi
-—  Single Thread?
-—  Variables - var, let, const
-—  Data Types
-—  Primiteve - number, bigInt, string, boolean, null, undefined, symbols
-—  NonPrimitive - objects, arrays, functions
-—  null vs undefined
-—  alert(), prompt(), confirm(), confirm()
+—  JS nima? <br>
+—  JS qanday ishlaydi <br>
+—  Single Thread? <br>
+—  Variables - var, let, const <br>
+—  Data Types <br>
+—  Primiteve - number, bigInt, string, boolean, null, undefined, symbols <br>
+—  NonPrimitive - objects, arrays, functions <br>
+—  null vs undefined <br>
+—  alert(), prompt(), confirm(), confirm() <br>
 
