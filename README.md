@@ -24,7 +24,7 @@ const => o`zgarmas <br>
 var => Global <br>
 let => scopka tegishli {} Modern way <br>
 <hr>
-## null vs undefined --> larning bur biridan farqi <br>
+### null vs undefined --> larning bur biridan farqi <br>
 -- value exist vs value not exist <br>
 -- object vs undefined <br>
 -- primitieve value vs ECMA feature <br>
@@ -33,8 +33,8 @@ null === undefined; // false <br>
 isNaN(2 + null); // false <br>
 isNaN(2 + undefined); // true <br>
 <hr>
-## JavaScript da 8 ta data types mavjud. ulardan 7 tasi primitive 1 tasi non-primitive. <br>
-### -- primitive <br>
+### JavaScript da 8 ta data types mavjud. ulardan 7 tasi primitive 1 tasi non-primitive. <br>
+## -- primitive <br>
 1.Number => raqamlar, in range of = 9007199254740992 eng katta raqam <br>
 2.Bigint => 9007199254740992n "n" is bigint <br>
 console.log(9007199254740992n + 1n); <br>
