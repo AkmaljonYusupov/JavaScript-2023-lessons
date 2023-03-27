@@ -18,12 +18,12 @@ JavaScript dasturidan bilishingiz kerak bo'lgan barcha mavzular no'ldan boshlab 
 — NonPrimitive - objects, arrays, functions <br>
 — null vs undefined <br>
 — alert(), prompt(), confirm(), confirm() <br>
-<hr>
+
 ###let var const => verabels ni belgilash uchun ishlatiladi
 const => o`zgarmas <br>
 var => Global <br>
 let => scopka tegishli {} Modern way <br>
-<hr>
+
 ###null vs undefined --> larning bur biridan farqi <br>
 -- value exist vs value not exist <br>
 -- object vs undefined <br>
@@ -32,7 +32,7 @@ null == undefined; // true <br>
 null === undefined; // false <br>
 isNaN(2 + null); // false <br>
 isNaN(2 + undefined); // true <br>
-<hr>
+
 ###JavaScript da 8 ta data types mavjud. ulardan 7 tasi primitive 1 tasi non-primitive. <br>
 ##-- primitive <br>
 1.Number => raqamlar, in range of = 9007199254740992 eng katta raqam <br>
@@ -45,5 +45,5 @@ console.log(9007199254740992n + 1n); <br>
 7.Symbols => a  <br>
 ##-- non-primitieve <br>
 8.Objects => a <br>
-<hr>
+
 ###typeof => malumotlar turini aniqlash uchun ishlatiladi <br>
