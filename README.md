@@ -19,31 +19,31 @@ JavaScript dasturidan bilishingiz kerak bo'lgan barcha mavzular no'ldan boshlab 
 — null vs undefined <br>
 — alert(), prompt(), confirm(), confirm() <br>
 
-###let var const => verabels ni belgilash uchun ishlatiladi
-const => o`zgarmas
-var => Global
-let => scopka tegishli {} Modern way
+### let var const => verabels ni belgilash uchun ishlatiladi
+const => o`zgarmas <br>
+var => Global <br>
+let => scopka tegishli {} Modern way <br>
 
-##null vs undefined --> larning bur biridan farqi
--- value exist vs value not exist
--- object vs undefined
--- primitieve value vs ECMA feature
-null == undefined; // true
-null === undefined; // false
-isNaN(2 + null); // false
-isNaN(2 + undefined); // true
+## null vs undefined --> larning bur biridan farqi <br>
+-- value exist vs value not exist <br>
+-- object vs undefined <br>
+-- primitieve value vs ECMA feature <br>
+null == undefined; // true <br>
+null === undefined; // false <br>
+isNaN(2 + null); // false <br>
+isNaN(2 + undefined); // true <br>
 
-##JavaScript da 8 ta data types mavjud. ulardan 7 tasi primitive 1 tasi non-primitive.
-###-- primitive
-1.Number => raqamlar, in range of = 9007199254740992 eng katta raqam
-2.Bigint => 9007199254740992n "n" is bigint
-console.log(9007199254740992n + 1n);
-3.string => a
-4.Boolean => a
-5.Null => a
-6.Undefined => a
-7.Symbols =>a
--- non-primitieve
-8.Objects => a
+## JavaScript da 8 ta data types mavjud. ulardan 7 tasi primitive 1 tasi non-primitive. <br>
+### -- primitive <br>
+1.Number => raqamlar, in range of = 9007199254740992 eng katta raqam <br>
+2.Bigint => 9007199254740992n "n" is bigint <br>
+console.log(9007199254740992n + 1n); <br>
+3.string => a <br>
+4.Boolean => a <br>
+5.Null => a  <br>
+6.Undefined => a <br>
+7.Symbols => a  <br>
+-- non-primitieve <br>
+8.Objects => a <br>
 
-###typeof => malumotlar turini aniqlash uchun ishlatiladi
+### typeof => malumotlar turini aniqlash uchun ishlatiladi <br>
