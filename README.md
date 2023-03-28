@@ -7,43 +7,29 @@ JavaScript dasturidan bilishingiz kerak bo'lgan barcha mavzular no'ldan boshlab 
 <hr>
 <img src="./Webbrain.gif" alt="JavaScript">
 <hr>
-<h2>1-dars | JSga Kirish | Variables | Data Types</h2>
+<h2>2-dars | Type Convirsions | Operators | Comparision | Logical Operators</h2>
 
-— JS nima? <br>
-— JS qanday ishlaydi <br>
-— Single Thread? <br>
-— Variables - var, let, const <br>
-— Data Types <br>
-— Primiteve - number, bigInt, string, boolean, null, undefined, symbols <br>
-— NonPrimitive - objects, arrays, functions <br>
-— null vs undefined <br>
-— alert(), prompt(), confirm(), confirm() <br>
+— Type conversions <br>
+— Operators + - * / % () = ++ -- ** <br>
+— Comparision == === <> <= >= <br>
+— Logical Operations || && ! <br>
 
-###let var const => verabels ni belgilash uchun ishlatiladi
-const => o`zgarmas
-var => Global
-let => scopka tegishli {} Modern way
+##Basic operators, maths
+-Addition + <br>
+-Subtraction - <br>
+-Multiplication _ <br>
+-Division / <br>
+-Remainder % <br>
+-Exponentiation ** <br>
+-Braces () <br>
+-Equality =, ==, === <br>
+-Obrivations +=, -=, /=, _= <br>
+-Increment ++ <br>
+-Decrament -- <br>
 
-##null vs undefined --> larning bur biridan farqi
--- value exist vs value not exist
--- object vs undefined
--- primitieve value vs ECMA feature
-null == undefined; // true
-null === undefined; // false
-isNaN(2 + null); // false
-isNaN(2 + undefined); // true
-
-##JavaScript da 8 ta data types mavjud. ulardan 7 tasi primitive 1 tasi non-primitive.
-###-- primitive
-1.Number => raqamlar, in range of = 9007199254740992 eng katta raqam
-2.Bigint => 9007199254740992n "n" is bigint
-console.log(9007199254740992n + 1n);
-3.string => a
-4.Boolean => a
-5.Null => a
-6.Undefined => a
-7.Symbols =>a
--- non-primitieve
-8.Objects => a
-
-###typeof => malumotlar turini aniqlash uchun ishlatiladi
+<hr>
+<img src="./Screenshot_2.png" alt="acs2">
+<hr>
+<hr>
+<img src="./Screenshot_1.png" alt="acs2">
+<hr>

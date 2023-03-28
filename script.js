@@ -1,100 +1,113 @@
-// "use strict";
-// console.log("hello javascript 1");
-// console.log("hello javascript 2");
+// let b = 1;
+// let a = "10s";
+// let a = "1";
 
-// let var const => verabels ni belgilash uchun ishlatiladi
-// const => o`zgarmas
-// var => Global
-// let => scopka tegishli {} Modern way
+// let tsxt1 = "SmartBrain";
+// let tsxt2 = "IT Academy";
 
-// const text = 24;
-// console.log(text);
+// console.log(tsxt1 + tsxt2);
+// console.log(+a);
+// console.log(b + +a);
 
-// text = `Web Brain academy`;
-// console.log(text);
+// let a = "10";
+// let b = "10.3";
+// console.log(Number(b));
+// console.log(Number.parseInt(b));
+// console.log(Number.parseFloat(b));
 
-// let num = 1,
-//   a = 2,
-//   b = 3;
+// true = !0, !null, !undefined
+// console.log(false == 0);
+// console.log(true == 1);
+// console.log(false == null);
+// console.log(false == undefined);
+// console.log(undefined == null);
 
-// let a = (b = c = 3);
-// console.log(a, b, c);
-// console.log(`1234`);
+// console.log(true == "1");
+// console.log(true == "a");
+// console.log(true == "2");
 
-// data type 8 ta
+// console.log(true == "0");
 
-// -- primitive
+// let a = 1;
+// let b = "10";
+// console.log(a / +b);
 
-// 1.Number
-// console.log(9007199254740992);
+// console.log(1 + (1 * 1) / 1);
+// console.log(((1 + 1) * 1) / 1);
 
-// 2.Bigint
-// console.log(9007199254740992n + 1n);
+// let a = 1;
+// a++; a = a+1;
+// console.log(a++);
 
-// 3.String
-// let name = "Smart Brain IT Academy";
-// console.log('Welcome \nto "Smartbrain"' + name + "IT Center");
-// console.log(typeof `Welcom ${name}, IT Center`);
+// console.log(a--); //1
+// console.log(a);
 
-// 4.Boolean
-// console.log(true);
-// console.log(false);
+// console.log(a++); //1
+// console.log(a); //2
+// console.log(++a); //3
+// console.log(a); //3
+// console.log(a++); //3
+// console.log(a++); //4
 
-// 5.Nul
-// let b = null;
-// console.log(b);
+// let a = 50;
+// a = a + 10;
+// a += 10;
+// a -= 10;
+// a *= 10;
+// a /= 10;
 
-// 6.Undefined
-// let a;
-// let b = null;
-// console.log(typeof a, typeof b);
-// console.log(isNaN(null + 1));
-// console.log(null + 1); // 1
-// console.log(undefined + 1); // NaN
-// console.log(b === b); // true
-// console.log({ b } === { b }); // false
+// console.log(a);
 
-// null vs undefined --> larning bur biridan farqi
-// -- value exist vs value not exist
-// -- object vs undefined
-// -- primitieve value vs ECMA feature
-null == undefined; // true
-null === undefined; // false
-isNaN(2 + null); // false
-isNaN(2 + undefined); // true
+// =,==,===
 
-// 7.Symbols
-// let a = Symbol("text");
-// let b = Symbol("text");
-// console.log(b === a);
-// console.log(b == a);
+// let a = 10;
+// let b = 11;
+// let c = 11;
+// console.log(a > b);
+// console.log(a < b);
+// console.log(c < b);
+// console.log(c <= b);
+// console.log(c >= b);
 
-// --non - primitieve;
+// console.log(c == b); // qiymatni tekshiradi // true
+// console.log(c === b); // data taypni xam tekshiradi // true
 
-// Object => array, obj, function
-let arr = ["Anvar", 24, "Olim"]; // bu ma`lumotlarni indexsi bilan chaqiradi
-let obj = { name: "SmartBrain", status: "IT center" }; // key orqali ifoda qilinadi
-// let function = () =>{}
-function test() {
-  console.log(arr);
-  console.log(obj.name);
-}
-test();
-console.log(arr);
-console.log(obj.name);
+// let str1 = "A";
+// let str2 = "a";
 
-// 9007199254740992
-// JavaScript da 8 ta data types mavjud. ulardan 7 tasi primitive 1 tasi non-primitive.
-// -- primitive
-// 1.Number => raqamlar, in range of = 9007199254740992 eng katta raqam
-// 2.Bigint => 9007199254740992n "n" is bigint
-// console.log(9007199254740992n + 1n);
-// 3.string => a
-// 4.Boolean => a
-// 5.Null => a
-// 6.Undefined => a
-// 7.Symbols =>a
-// -- non-primitieve
-// 8.Objects => a
+// console.log(str1 > str2); // false
+// console.log(str1 < str2); // true
+// console.log("str2" == "str2"); // true
+// console.log("str1" == "str2"); // false
+// console.log("stra" > "strb"); // false
+// console.log("str1" < "str2"); // true
 
-// typeof => malumotlar turini aniqlash uchun ishlatiladi
+// let a = 1;
+// let b = 1;
+// let check = true;
+
+// console.log(a == b); // !=
+// console.log(a === b); // !==
+
+// console.log(a != b);
+// console.log(check);
+// console.log(!check);
+
+// Logical Operations
+// OR
+// let ceo = false;
+// let admin = false;
+
+// console.log(ceo === true);
+// console.log(admin === true);
+
+// console.log(admin === true || ceo === true);
+// console.log(true || true);
+// console.log(false || true);
+// console.log(admin || ceo);
+
+// AND &&
+
+// let id = true;
+// let face = false;
+// console.log(id && face);
