@@ -14,7 +14,7 @@ JavaScript dasturidan bilishingiz kerak bo'lgan barcha mavzular no'ldan boshlab 
 — Comparision == === <> <= >= <br>
 — Logical Operations || && ! <br>
 
-##Basic operators, maths
+## Basic operators, maths
 -Addition + <br>
 -Subtraction - <br>
 -Multiplication _ <br>
