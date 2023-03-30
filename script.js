@@ -1,113 +1,106 @@
-// let b = 1;
-// let a = "10s";
-// let a = "1";
-
-// let tsxt1 = "SmartBrain";
-// let tsxt2 = "IT Academy";
-
-// console.log(tsxt1 + tsxt2);
-// console.log(+a);
-// console.log(b + +a);
-
-// let a = "10";
-// let b = "10.3";
-// console.log(Number(b));
-// console.log(Number.parseInt(b));
-// console.log(Number.parseFloat(b));
-
-// true = !0, !null, !undefined
-// console.log(false == 0);
 // console.log(true == 1);
-// console.log(false == null);
-// console.log(false == undefined);
-// console.log(undefined == null);
+// console.log(true === 1);
+// console.log(typeof 1);
+// console.log(typeof true);
 
-// console.log(true == "1");
-// console.log(true == "a");
-// console.log(true == "2");
+// console.log(true != false);
+// console.log(true !== false);
+// console.log(1 != 0);
+// console.log(1 !== 0);
 
-// console.log(true == "0");
+// console.log(1 !== "0");
+// console.log(1 !== "0" || !false); // true
+// console.log(1 !== "0" || (false && "hey")); // true
+// console.log(1 !== "0" || (true && "hey")); // false
+// console.log(1 !== "0" && false && "hey"); // true
+// console.log(1 !== "0" && true && "hey"); // false
+// console.log(!(1 !== "0" && true && "hey")); // false
 
-// let a = 1;
-// let b = "10";
-// console.log(a / +b);
+// 3-dars | If else | Nullish
 
-// console.log(1 + (1 * 1) / 1);
-// console.log(((1 + 1) * 1) / 1);
+// let age = prompt("Yoshingizni kiriting");
+// if (age > 18) {
+//   console.log("Elektron pochta ocha olasiz");
+// } else {
+//   console.log("Elektron pochta ocha olmaysiz");
+// }
 
-// let a = 1;
-// a++; a = a+1;
-// console.log(a++);
+// let temp = 1;
+// 0, null, undefined
+// if (temp) {
+//   console.log("Havo issiq");
+// }
+// if (true) {
+//   console.log("Havo soviq");
+// }
 
-// console.log(a--); //1
-// console.log(a);
+// let temp = "qor"; // issiq, sovuq, yomg`ir, qor
+// 0, null, undefined
 
-// console.log(a++); //1
-// console.log(a); //2
-// console.log(++a); //3
-// console.log(a); //3
-// console.log(a++); //3
-// console.log(a++); //4
+// if (temp === "issiq") {
+//   console.log("Hovo issiq, yengil kiyinib oling");
+// } else if (temp === "sovuq") {
+//   console.log("Hovo soviq, qalin kiyinib oling");
+// } else if (temp === "yomg`ir") {
+//   console.log("Hovo yomg`ir, soyabon olib oling");
+// } else if (temp === "qor") {
+//   console.log("Hovo qor, qalin kiyining soyabon olib oling");
+// } else console.log("nomalum obxavo");
 
-// let a = 50;
-// a = a + 10;
-// a += 10;
-// a -= 10;
-// a *= 10;
-// a /= 10;
+// temp = 0; // temp >0 && temp<10, temp>10 && temp<15,  temp > 15 && temp < 25
+// if (temp < 0) {
+//   console.log("Havo juda sovuq ");
+// } else if (temp <= 25 && temp > 15) {
+//   console.log("Havo  juda issiq ");
+// } else if (temp <= 15 && temp > 10) {
+//   console.log("Havo issiq");
+// } else if (temp <= 10 && temp > 0) {
+//   console.log("Havo sovuq");
+// } else {
+//   console.log("not found");
+// }
 
-// console.log(a);
+// if ("condition") {
+//   ("code");
+// } else if ("condition") {
+//   ("code");
+// } else "code";
 
-// =,==,===
+// ? :
+temp = -5;
+// temp < 0 ? ===> if(temp < 0)
+// temp < 0 ? console.log("Xavo juda sovuq") : console.log("nod found");
 
-// let a = 10;
-// let b = 11;
-// let c = 11;
-// console.log(a > b);
-// console.log(a < b);
-// console.log(c < b);
-// console.log(c <= b);
-// console.log(c >= b);
+// temp <= 10 && temp > 0
+//   ? console.log("havo juda sovuq")
+//   : console.log("not found");
 
-// console.log(c == b); // qiymatni tekshiradi // true
-// console.log(c === b); // data taypni xam tekshiradi // true
+// temp < 0
+//   ? console.log("havo juda sovuq")
+//   : temp < 10
+//   ? console.log("havo sovuq")
+//   : temp < 15
+//   ? console.log("havo issiq")
+//   : console.log("havo juda issiq");
 
-// let str1 = "A";
-// let str2 = "a";
+// Nullish ?? =====> null, undefined
+// OR || =====> null, undefined, 0, false, NaN
 
-// console.log(str1 > str2); // false
-// console.log(str1 < str2); // true
-// console.log("str2" == "str2"); // true
-// console.log("str1" == "str2"); // false
-// console.log("stra" > "strb"); // false
-// console.log("str1" < "str2"); // true
+// console.log(false || 1);
+// console.log(false ?? 1);
 
-// let a = 1;
-// let b = 1;
-// let check = true;
+// console.log(NaN || 1);
+// console.log(NaN ?? 1);
 
-// console.log(a == b); // !=
-// console.log(a === b); // !==
+// console.log(null || 1);
+// console.log(null ?? 1);
 
-// console.log(a != b);
-// console.log(check);
-// console.log(!check);
+// console.log(undefined || 1);
+// console.log(undefined ?? 1);
 
-// Logical Operations
-// OR
-// let ceo = false;
-// let admin = false;
+console.log(2 * 2); // 2**2
+console.log(2 * 2 * 2); // 2**3
+console.log(2 * 2 * 2 * 2); // 2**4
+console.log(2 * 2 * 2 * 2 * 2); // 2**5
 
-// console.log(ceo === true);
-// console.log(admin === true);
-
-// console.log(admin === true || ceo === true);
-// console.log(true || true);
-// console.log(false || true);
-// console.log(admin || ceo);
-
-// AND &&
-
-// let id = true;
-// let face = false;
-// console.log(id && face);
+console.log(2 ** 50); // 2**50
